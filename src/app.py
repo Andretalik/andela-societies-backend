@@ -38,9 +38,9 @@ def create_app(environment="Development"):
         app=app,
         default='Api',
         default_label="Available Endpoints",
-        title='🗣️ Open-Platform Api 😱',
+        title='🗣️ Andela Societies API 😱',
         version='1.0',
-        description="""Open-Platform Api Endpoint Documentation 📚""")
+        description="""Andela Societies API Endpoint Documentation 📚""")
 
     # to redirect all incoming production requests to https
     if environment.lower() == "production":
